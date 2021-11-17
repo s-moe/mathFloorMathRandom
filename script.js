@@ -13,15 +13,25 @@ let roll = `You rolled a ${die1} and a ${die2}. They sum ${die1 + die2}`
 
 console.log(roll)
 
-const password = prompt('Please enter a new password');
+// const password = prompt('Please enter a new password');
 
-if(password.length >= 6) {
-  if (password.indexOf(' ') === -1) {
-  console.log('good password') 
-  } else {
-  console.log('password too short! please enter password with 6+ characters')
-//password cannot contain a space
+// if(password.length >= 6) {
+//   if (password.indexOf(' ') === -1) {
+//   console.log('good password') 
+//   } else {
+//   console.log('password too short! please enter password with 6+ characters')
+// //password cannot contain a space
 
-}} else {
-  console.log('password cannot contain a space')
+// }} else {
+//   console.log('password cannot contain a space')
+// }
+
+//another way: 
+
+const password = prompt('enter a password')
+
+if (password.length >= 6 && password.indexOf(' ') === -1){
+  console.log('valid password')
+} else {
+  console.log('enter a valid password')
 }
