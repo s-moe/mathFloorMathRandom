@@ -16,13 +16,12 @@ console.log(roll)
 const password = prompt('Please enter a new password');
 
 if(password.length >= 6) {
-  console.log('long enough password')
-} else {
+  if (password.indexOf(' ') === -1) {
+  console.log('good password') 
+  } else {
   console.log('password too short! please enter password with 6+ characters')
-}
 //password cannot contain a space
-if (password.indexOf(' ') === -1) {
-  console.log('good password')
-} else {
+
+}} else {
   console.log('password cannot contain a space')
 }
