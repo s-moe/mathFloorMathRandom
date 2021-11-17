@@ -1,17 +1,17 @@
-let random = Math.random()
+// let random = Math.random()
 
-let wholeRandomNumber = Math.floor(Math.random() * 10) + 1
+// let wholeRandomNumber = Math.floor(Math.random() * 10) + 1
 
-console.log(wholeRandomNumber)
+// console.log(wholeRandomNumber)
 
-// NO TOUCHING! (please)
-const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
-const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+// // NO TOUCHING! (please)
+// const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+// const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
 
-// YOUR CODE BELOW THIS LINE:
-let roll = `You rolled a ${die1} and a ${die2}. They sum ${die1 + die2}`
+// // YOUR CODE BELOW THIS LINE:
+// let roll = `You rolled a ${die1} and a ${die2}. They sum ${die1 + die2}`
 
-console.log(roll)
+// console.log(roll)
 
 // const password = prompt('Please enter a new password');
 
@@ -28,10 +28,26 @@ console.log(roll)
 
 //another way: 
 
-const password = prompt('enter a password')
+// const password = prompt('enter a password')
 
-if (password.length >= 6 && password.indexOf(' ') === -1){
-  console.log('valid password')
+// if (password.length >= 6 && password.indexOf(' ') === -1){
+//   console.log('valid password')
+// } else {
+//   console.log('enter a valid password')
+// }
+
+//0-5 free
+//5-10 $10
+//10-65 $20
+//66+ free
+const age = 13;
+
+if (age >=0 && age <= 5 || age > 65){
+  console.log('free')
+} else if (age >=6 && age <= 10){
+  console.log('$10')
+} else if (age >= 11 && age <= 65) {
+  console.log('$20')
 } else {
-  console.log('enter a valid password')
+  console.log('invalid age')
 }
