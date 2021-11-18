@@ -40,14 +40,28 @@
 //5-10 $10
 //10-65 $20
 //66+ free
+// const age = 13;
+
+// if (age >=0 && age <= 5 || age > 65){
+//   console.log('free')
+// } else if (age >=6 && age <= 10){
+//   console.log('$10')
+// } else if (age >= 11 && age <= 65) {
+//   console.log('$20')
+// } else {
+//   console.log('invalid age')
+// }
+
+let firstName = prompt('enter your first name');
+
+if (!firstName) {
+  firstName = prompt('enter a valid first name')
+} else {
+  console.log(firstName)
+}
+
 const age = 13;
 
-if (age >=0 && age <= 5 || age > 65){
-  console.log('free')
-} else if (age >=6 && age <= 10){
-  console.log('$10')
-} else if (age >= 11 && age <= 65) {
-  console.log('$20')
-} else {
-  console.log('invalid age')
+if (!(age >=0 && age <= 5 || age > 65)){
+  console.log('you are not a baby or a senior')
 }
