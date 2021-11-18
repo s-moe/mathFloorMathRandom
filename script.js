@@ -67,7 +67,7 @@
 // }
 
 //Switch statement
-const day = 2;
+const day = 50;
 
 // if (day === 1) {
 //   console.log('Monday')
@@ -87,5 +87,7 @@ switch(day){
   case 3: 
   console.log('Wednesday');
   break;
+  default:
+  console.log('Unknown number')
 } 
 
