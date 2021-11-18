@@ -67,7 +67,7 @@
 // }
 
 //Switch statement
-const day = 6;
+// const day = 6;
 
 // if (day === 1) {
 //   console.log('Monday')
@@ -77,21 +77,26 @@ const day = 6;
 //   console.log('Wednesday')
 // }
 
-switch(day){
-  case 1: 
-  console.log('Monday');
-  break;
-  case 2: 
-  console.log('Tuesday');
-  break;
-  case 3: 
-  console.log('Wednesday');
-  break;
-  case 6:
-  case 7:
-  console.log('weekend');
-  break;
-  default:
-  console.log('Unknown number')
-} 
+// switch(day){
+//   case 1: 
+//   console.log('Monday');
+//   break;
+//   case 2: 
+//   console.log('Tuesday');
+//   break;
+//   case 3: 
+//   console.log('Wednesday');
+//   break;
+//   case 6:
+//   case 7:
+//   console.log('weekend');
+//   break;
+//   default:
+//   console.log('Unknown number')
+// } 
 
+//Arrays
+let days = ['Monday', 'Tuesday', 'Wednesday']
+console.log(days)
+console.log(days.length)
+console.log(days[3 -1])
