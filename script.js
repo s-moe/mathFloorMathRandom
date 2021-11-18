@@ -52,16 +52,40 @@
 //   console.log('invalid age')
 // }
 
-let firstName = prompt('enter your first name');
+// let firstName = prompt('enter your first name');
 
-if (!firstName) {
-  firstName = prompt('enter a valid first name')
-} else {
-  console.log(firstName)
-}
+// if (!firstName) {
+//   firstName = prompt('enter a valid first name')
+// } else {
+//   console.log(firstName)
+// }
 
-const age = 13;
+// const age = 13;
 
-if (!(age >=0 && age <= 5 || age > 65)){
-  console.log('you are not a baby or a senior')
-}
+// if (!(age >=0 && age <= 5 || age > 65)){
+//   console.log('you are not a baby or a senior')
+// }
+
+//Switch statement
+const day = 2;
+
+// if (day === 1) {
+//   console.log('Monday')
+// } else if (day === 2) {
+//   console.log('Tuesday')
+// } else if (day === 3) {
+//   console.log('Wednesday')
+// }
+
+switch(day){
+  case 1: 
+  console.log('Monday');
+  break;
+  case 2: 
+  console.log('Tuesday');
+  break;
+  case 3: 
+  console.log('Wednesday');
+  break;
+} 
+
