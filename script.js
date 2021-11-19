@@ -136,3 +136,18 @@ console.log(soManyFriends)
 
 //includes - use for allergy app!!!
 console.log(friends.includes('Niko'))
+
+myAllergies = ['cocoa butter', 'shea butter']
+ingredients = ['red algae', 'shea butter']
+console.log(ingredients.includes('butter'))
+//easy way to tell if some element is in an array or not, if the result of the indexOf is -1 it means it's not in the array: 
+console.log(ingredients.indexOf('spirulina')) 
+//or, is indexOf the item === -1? Then it is not present
+
+//indexOf
+console.log("Blue".indexOf('l'))
+
+//reverse
+
+ingredients.reverse()
+console.log(ingredients)
