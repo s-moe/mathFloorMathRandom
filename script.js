@@ -110,19 +110,29 @@
 // days[5] = "Friday"
 // console.log(days)
 
-let movieLine = ['tom', 'nancy']
+// let movieLine = ['tom', 'nancy']
 
-movieLine.push('phil')
-console.log(movieLine)
-movieLine.pop()
-console.log(movieLine)
-movieLine.pop()
-console.log(movieLine)
-movieLine.push('harry', 'becca')
-console.log(movieLine)
+// movieLine.push('phil')
+// console.log(movieLine)
+// movieLine.pop()
+// console.log(movieLine)
+// movieLine.pop()
+// console.log(movieLine)
+// movieLine.push('harry', 'becca')
+// console.log(movieLine)
 
-movieLine.shift()
-console.log(movieLine)
-movieLine.unshift('Niko')
-console.log(movieLine)
+// movieLine.shift()
+// console.log(movieLine)
+// movieLine.unshift('Niko')
+// console.log(movieLine)
 
+//concat method
+
+const friends = ['Niko', 'Rheanne', 'Liv']
+const moreFriends = ['Kim', 'Krystal', 'Natalie']
+const soManyFriends = friends.concat(moreFriends)
+
+console.log(soManyFriends)
+
+//includes - use for allergy app!!!
+console.log(friends.includes('Niko'))
