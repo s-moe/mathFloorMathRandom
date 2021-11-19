@@ -151,3 +151,5 @@ console.log("Blue".indexOf('l'))
 
 ingredients.reverse()
 console.log(ingredients)
+
+console.log(ingredients.indexOf('jojoba oil') === -1 ? 'go ahead' : 'nope')
