@@ -100,3 +100,12 @@ let days = ['Monday', 'Tuesday', 'Wednesday']
 console.log(days)
 console.log(days.length)
 console.log(days[3 -1])
+
+console.log(days[2][0])
+
+days[2] = "Thursday"
+console.log(days)
+console.log(days[2])
+
+days[5] = "Friday"
+console.log(days)
