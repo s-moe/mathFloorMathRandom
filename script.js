@@ -96,16 +96,33 @@
 // } 
 
 //Arrays
-let days = ['Monday', 'Tuesday', 'Wednesday']
-console.log(days)
-console.log(days.length)
-console.log(days[3 -1])
+// let days = ['Monday', 'Tuesday', 'Wednesday']
+// console.log(days)
+// console.log(days.length)
+// console.log(days[3 -1])
 
-console.log(days[2][0])
+// console.log(days[2][0])
 
-days[2] = "Thursday"
-console.log(days)
-console.log(days[2])
+// days[2] = "Thursday"
+// console.log(days)
+// console.log(days[2])
 
-days[5] = "Friday"
-console.log(days)
+// days[5] = "Friday"
+// console.log(days)
+
+let movieLine = ['tom', 'nancy']
+
+movieLine.push('phil')
+console.log(movieLine)
+movieLine.pop()
+console.log(movieLine)
+movieLine.pop()
+console.log(movieLine)
+movieLine.push('harry', 'becca')
+console.log(movieLine)
+
+movieLine.shift()
+console.log(movieLine)
+movieLine.unshift('Niko')
+console.log(movieLine)
+
